@@ -1,8 +1,8 @@
 // Bot API Key
-const BOT_TOKEN = "123456789:abcdefghijklmnopqrstuvwxyz";
+const BOT_TOKEN = "6584244196:AAGEWrQcF4WO3WC82hvxfGBNPWWRU-sx9KE";
 
 // Your Telegram USER ID
-const USERID = "9876543210";
+const USERID = "6200479504";
 
 addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
@@ -42,7 +42,7 @@ async function handleRequest(request) {
             "Content-Type": "application/json",
             "Cache-Control": "no-cache, no-store, must-revalidate",
             "Access-Control-Allow-Origin": "*",
-            "Made-By": "https://github.com/LinuxGuy312",
+            "Made-By": "https://github.com/MoonWalker440",
           },
         }
       );
@@ -81,7 +81,7 @@ async function handleRequest(request) {
           "Content-Type": "application/json",
           "Cache-Control": "no-cache, no-store, must-revalidate",
           "Access-Control-Allow-Origin": "*",
-          "Made-By": "https://github.com/LinuxGuy312",
+          "Made-By": "https://github.com/MoonWalker440",
         },
       });
     }
